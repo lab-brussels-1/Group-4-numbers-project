@@ -1,0 +1,43 @@
+{
+  "name": "numbers-group-project",
+  "version": "1.0.0",
+  "description": "This is a little group project for groups of 3:",
+  "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HackYourFutureBelgium/numbers-group-project.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HackYourFutureBelgium/numbers-group-project/issues"
+  },
+  "homepage": "https://github.com/HackYourFutureBelgium/numbers-group-project#readme",
+  "scripts": {
+    "format": "prettier --write ./",
+    "format:check": "prettier --check ./",
+    "lint:js": "eslint --max-warnings=0 --ext=.js --format=codeframe",
+    "lint:ls": "ls-lint",
+    "lint:css": "stylelint --fix './**/*.css' ",
+    "lint:md": "markdownlint --ignore node_modules --ignore docs --config ./.markdownlint.jsonc --fix ./ ",
+    "validate:html": "html-validate",
+    "test": "node --experimental-vm-modules node_modules/.bin/jest --passWithNoTests --coverage ",
+    "spell-check": "cspell  './**'"
+  },
+  "type": "module",
+  "devDependencies": {
+    "@ls-lint/ls-lint": "^1.10.0",
+    "cspell": "^5.6.6",
+    "eslint": "^7.31.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^32.3.1",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-sonarjs": "^0.9.1",
+    "jest": "^26.6.3",
+    "html-validate": "^5.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^22.0.0",
+    "markdownlint-cli": "^0.28.1",
+    "prettier": "^2.2.1"
+  }
+}
