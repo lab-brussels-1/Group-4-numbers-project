@@ -18,7 +18,7 @@ const removeNumber = () => {
   for (const num of numbers) {
     numbersList = `# ${num}\n`;
   }
-  display('your-output',numbersList);
+  display('your-output', numbersList);
 };
 
 // !! fill in this blank with the correct DOM ID
