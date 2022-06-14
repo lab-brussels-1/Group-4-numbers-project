@@ -5,7 +5,7 @@ import { display } from '../lib/dom-io.js';
 import { listItems } from './utils/list-items.js';
 
 const showNumbers = () => {
-  debugger;
+ 
 
   // generate a string list of all numbers (use the util!)
   display('your-output', listItems(numbers));

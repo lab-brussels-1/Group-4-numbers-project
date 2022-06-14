@@ -15,7 +15,7 @@
  */
 export const listItems = (arr = []) => {
   let str1 = '';
-  for (let i of arr) {
+  for (const i of arr) {
     str1 += `# ${i}\n`;
   }
   return str1;

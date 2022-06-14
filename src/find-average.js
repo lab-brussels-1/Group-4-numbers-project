@@ -7,7 +7,7 @@ import { display } from '../lib/dom-io.js';
 const findAverage = () => {
   // calculate the average of all saved numbers  (use your util function!)
   let sum = 0;
-  for (let i of numbers) {
+  for (const i of numbers) {
     sum += i;
   }
   const avg = sum / numbers.length;

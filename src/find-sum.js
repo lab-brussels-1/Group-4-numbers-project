@@ -7,7 +7,7 @@ import { display } from '../lib/dom-io.js';
 const findSum = () => {
   // add together all the saved numbers (use your util function!)
   let sum = 0;
-  for (let i of numbers) {
+  for (const i of numbers) {
     sum += i;
   }
   // display the sum of all numbers in the DOM
