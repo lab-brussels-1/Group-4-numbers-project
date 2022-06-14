@@ -12,7 +12,7 @@ const findAverage = () => {
   }
   const avg = sum / numbers.length;
   // display the average in the UI
-  display('your-output', 'average: ' + avg);
+  display('your-output', `average: ${avg}`);
 };
 
 // !! fill in this blank with the correct DOM ID

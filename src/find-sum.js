@@ -11,7 +11,7 @@ const findSum = () => {
     sum += i;
   }
   // display the sum of all numbers in the DOM
-  display('your-output', 'sum: ' + sum);
+  display('your-output', `sum: ${sum}`);
 };
 
 // !! fill in this blank with the correct DOM ID
